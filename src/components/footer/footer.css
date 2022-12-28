@@ -1,0 +1,33 @@
+.main {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .social-icons {
+    transform: scale(1.5);
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .social-icon {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .social-icon svg {
+    overflow: visible !important;
+  }
+  .social-icon .si-splash, .social-icon .si-grid {
+    display: none;
+    visibility: hidden;
+  }
+  .social-icon .si-icon {
+    transform-origin: "center center";
+  }
+  
